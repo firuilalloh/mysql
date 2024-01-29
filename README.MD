@@ -70,7 +70,7 @@ Dengan hasil sama dengan timestamp manual input :
 
 Yang membedakan adalah kalian tidak perlu mengisi kolom tanggal dengan fungsi `NOW()` karena sudah memiliki fungsi ketika cretae table `current_timestamp()`
 
-Sama dengan yang lain ketika kalian memiliki fungsi `current_timestamp()` yang sudah di set ketika create table.
+Sama dengan yang lain ketika kalian memiliki fungsi `current_timestamp()` yang sudah di set ketika create table, maka kalian tidak perlu untuk mendefinisikan kolom tersebut ketika insert ke dalam kolom.
 
 Exemple yang lain :
 - ### date
